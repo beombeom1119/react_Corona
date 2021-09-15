@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.contents{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+
+}
+
+.header {
+  padding: 1rem 2rem;
+  background: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: #fff
+}
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius : 5px;
+  border : none;
+}
+
+section {
+  padding : 1rem
+}
+
+.doughnut {
+  margin-top: 10px;
+  width: 70%;
+  height: 70%;
+  
+}
+
+
