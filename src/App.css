@@ -1,6 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
+
 }
 
 .contents{
@@ -36,7 +37,10 @@ section {
   margin-top: 10px;
   width: 70%;
   height: 70%;
-  
+}
+
+canvas {
+  width : 40%
 }
 
 

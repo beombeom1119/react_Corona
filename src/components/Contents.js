@@ -10,7 +10,6 @@ const Contents = () => {
     const [comparedData, setComparedData] = useState({})
 
     useEffect(() => {
-
         const fetchEvents = async () => {
             const res = await axios.get("https://api.covid19api.com/dayone/country/kr")  //순차적인 진행을 위해 async
             makeData(res.data)
