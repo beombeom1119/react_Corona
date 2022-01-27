@@ -118,12 +118,12 @@ const Contents = () => {
                     }></Line>
                 </div>
 
-                <div className="doughnut">
+                {/* <div className="doughnut">
                     <Doughnut data={comparedData} options={
                         { title: { display: true, text: `현재 누적 확진, 해제, 사망${new Date().getMonth() + 1}월`, fontSize: 16 } }, //제목 옵션
                         { legend: { display: true, position: "bottom" } } //legend => 차트 
                     }></Doughnut>
-                </div>
+                </div> */}
             </div>
         </section>
     )
